@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /adm/
+Disallow: /fotos/
+Disallow: /PHPMailer/
+Disallow: /adm/index.php
+Disallow: /adm/painel.php
+Disallow: /adm/login.php
+Disallow: /adm/upload.php
+Disallow: /adm/edit.php

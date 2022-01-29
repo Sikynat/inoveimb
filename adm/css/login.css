@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Raleway:wght@100;500&family=Roboto:wght@100;400&display=swap');
+
+body {
+    background: #f7f7f7;
+    margin: 20px;
+}
+
+#ativar {
+    display: block;
+    margin: 20px auto;
+}
+
+#modal {
+    padding: 30px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    max-width: 400px;
+    margin: 20px auto;
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+#modal h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+#modal label {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#modal input{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: .5rem;
+    font-size: 1rem;
+    background: #f7f7f7;
+}
+
+#modal button {
+    margin-top: 20px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    padding: .6rem 2rem;
+    border: none;
+    background: #ffb801;
+    border-radius: 4px;
+    color: #402d00;
+    cursor: pointer;
+}
+
+#modal button:hover{
+    background: #dd9e00;
+    color: #302100;
+}
+
+#modal.animar {
+    animation-name: slide;
+    animation-duration: .3s;
+    animation-timing-function: ease;
+    animation-delay: .3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

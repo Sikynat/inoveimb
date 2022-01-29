@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Raleway:wght@100;500&family=Roboto:ital,wght@0,100;0,400;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_fixed {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    overflow: auto;
+    margin-top: 30px;
+}
+
+.header_fixed thead th{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th,td{
+    border-bottom: 1px solid #ffffff;
+    padding: 10px 20px;
+    font-size: 14px;
+    
+}
+
+tr:nth-child(odd){
+    background-color: rgb(231, 231, 231);
+}
+
+tr:hover td{
+    background-color: rgb(146, 146, 146);
+    
+}
+
+td img{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    border: 2px solid #ffffff ;
+}
+
+td button{
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+td button:hover{
+    background-color: rgb(173, 0, 0);
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+}
+

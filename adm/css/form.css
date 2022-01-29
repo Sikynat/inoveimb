@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    max-width: 1000px;
+    max-height: 100%;
+    background-color: white;
+    box-shadow: 10px 10px 2px black;
+    
+}
+
+.center{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 700px;
+    height: auto;
+}
+
+.center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.center form {
+    padding: 0 40px;
+    box-sizing: border-box;
+    padding-left: 30%;
+    padding-bottom: 15px;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  textarea {
+      outline: none;
+      resize: none;
+  }
+
+  .custom-select {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  input[type="submit"]{
+    margin-top: 10px;
+    padding: 10px;
+    width: 30%;
+    max-width: 200px;
+    background: rgb(59, 187, 0);
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    background: rgb(46, 146, 0);
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 30%;
+    max-width: 200px;
+    background: rgb(187, 0, 0);
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+}
+
+button:hover {
+    background: rgb(138, 0, 0);
+}
+
